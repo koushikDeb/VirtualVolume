@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:id="@+id/volumedecrese"
+    android:background="@android:color/transparent"
+    android:src="@drawable/ic_vo_down"
+    />
+    <ProgressBar
+
+android:layout_gravity="center"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:id="@+id/mediaseekbar"
+        android:layout_weight="9"
+        android:layout_margin="10sp"
+        android:layout_height="wrap_content"
+        android:progress="0"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/volumeincrease"
+
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_vo_up"/>
+    </LinearLayout>
+</LinearLayout>

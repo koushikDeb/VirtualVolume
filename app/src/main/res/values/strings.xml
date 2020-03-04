@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">virtualvolume</string>
+    <string name="channel_name">volume control Notification</string>
+    <string name="channel_description">Notification to control system volume</string>
+</resources>
